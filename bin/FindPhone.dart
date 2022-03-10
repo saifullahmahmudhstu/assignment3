@@ -36,12 +36,15 @@ class FindPhone {
         'total_mobile': "10"
       }
     ];
-    var a;
+
     for (var data in mobileData) {
-      if (mobileData[4]['brand_name'] == 'iPhone') {
-        a = mobileData[4]['brand_name'];
+      if (data.containsValue('iPhone')) {
+        print(data);// here print map
+        print(data['brand_name']); //here print only value from map
       }
+
+
     }
-    print(a);
+
   }
 }
