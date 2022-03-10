@@ -1,4 +1,5 @@
-    import 'Computer.dart';
+    import 'AbstractClass.dart';
+import 'Computer.dart';
 import 'Student.dart';
 import 'super_keyword.dart';
 
@@ -26,6 +27,22 @@ void main() {
 
   print('Motherboard Name: ${comp1.motherboardData}');
   print('Processor Type: ${comp1.processorData}');
+
+  //Problem 6
+
+  var ownObj1 = MyOWnClass();
+
+  var userdata = ownObj1.printUserList(['ABCD','Europe','Germany','Egypt']);
+
+  print(userdata);
+
+  var sumData = ownObj1.sum(22, 33);
+     print('Sum of Two Value: $sumData');
+
+    ownObj1.userInfo();
+
+
+
 
 
 
