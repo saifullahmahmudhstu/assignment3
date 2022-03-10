@@ -1,6 +1,7 @@
 import 'AbstractClass.dart';
 import 'Computer.dart';
 import 'FindPhone.dart';
+import 'Find_Azadvai.dart';
 import 'Student.dart';
 import 'super_keyword.dart';
 
@@ -11,7 +12,7 @@ void main() {
 
 
   //Problem No: 02
-    //findAzadVai();
+   findAzadVai();
 
 
    //Problem No: 03
