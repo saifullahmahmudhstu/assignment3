@@ -12,7 +12,8 @@ void main() {
 
 
   //Problem No: 02
-   findAzadVai();
+  var nameSearch = Azad();
+   nameSearch.findAzadVai();
 
 
    //Problem No: 03

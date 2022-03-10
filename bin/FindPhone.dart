@@ -37,14 +37,21 @@ class FindPhone {
       }
     ];
 
+
+
     for (var data in mobileData) {
       if (data.containsValue('iPhone')) {
         print(data);// here print map
         print(data['brand_name']); //here print only value from map
       }
+      // can not use else properly here
 
 
     }
 
+
+
   }
+
+
 }
