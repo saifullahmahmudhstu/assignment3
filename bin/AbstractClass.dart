@@ -3,7 +3,7 @@
 
   void userInfo();
   int sum(int a, int b);
-  bool userIsActive(String status);
+  bool userIsActive(bool status);
   void printUserList(List<String> userList);
 
    }
@@ -23,7 +23,7 @@
             return add;
 
             // TODO: implement sum
-            throw UnimplementedError();
+            //throw UnimplementedError();
           }
 
           @override
@@ -38,9 +38,16 @@
           }
 
           @override
-          bool userIsActive(String status) {
+          bool userIsActive(bool status) {  // I change here.Because cant convert it to boolean
+
+            // bool active = status.toLowerCase() == 'true';
+            // return active;
+            var active = status;
+
+           return active;
+
             // TODO: implement userIsActive
-            throw UnimplementedError();
+           // throw UnimplementedError();
           }
 
 

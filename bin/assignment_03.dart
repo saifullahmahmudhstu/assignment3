@@ -2,6 +2,7 @@ import 'AbstractClass.dart';
 import 'Computer.dart';
 import 'FindPhone.dart';
 import 'Find_Azadvai.dart';
+import 'ListClass.dart';
 import 'Student.dart';
 import 'super_keyword.dart';
 
@@ -49,7 +50,19 @@ void main() {
 
     ownObj1.userInfo();
 
+   var ab = ownObj1.userIsActive(true);
+   print('Is Active: $ab');
 
+
+
+   //Problem 9
+  // Write a program to perform CRUD operation on a list.
+  // hint: CRUD means Create, Read, Update, Delete
+
+    var listObject1 = ClassForList();
+    listObject1.listMethod1();
+
+  //Problem 10
 
 
 
