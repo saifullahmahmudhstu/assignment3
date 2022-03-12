@@ -54,6 +54,22 @@ void main() {
    var ab = ownObj1.userIsActive(true);
    print('Is Active: $ab');
 
+  // Problem No: 07
+  // What are Method Chaining, Named Constructor, and a super constructor?
+
+  //Method Chaining is a chaining of method that can't return any data and use with Cascade notation.
+  //No need to write object name repeatedly
+  //.=> Single operator
+  //.. => This is cascade notation
+  //... => spread
+
+
+  // Problem No: 08
+  // What is Method overriding?
+  // A method or any property of parent Class/Super Class is used in Child class
+  //and edit that method is called method overriding
+  // parent class should be extended by child class
+
 
 
    //Problem 9
