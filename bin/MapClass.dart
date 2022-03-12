@@ -3,7 +3,7 @@ class ClassForMap{
 
   void mapMethod(){
 
-    Map<String,dynamic> map1 ={};
+    Map<String,dynamic> map1 ={}; //Create
 
     map1['Country Name1']= 'Bangladesh';
     map1['Capital1']= 'Dhaka';
@@ -17,27 +17,23 @@ class ClassForMap{
 
     print(map1);
 
-    var p;
+   // var p;
 
-    map1.forEach((key, value) {
+    map1.forEach((key, value) { //Read
       //print(map1[key]);
 
       print('$key : $value');
     });
 
-    map1.forEach((key, value) {
+    print(map1['Country Name2']); //Read
 
-      if(map1.containsValue('Bangladesh')){
+    map1.remove('Capital2'); //Delete
 
-
-
-      }
+    print(map1);
 
 
-    }
 
 
-    );
 
 
 
