@@ -3,6 +3,7 @@ import 'Computer.dart';
 import 'FindPhone.dart';
 import 'Find_Azadvai.dart';
 import 'ListClass.dart';
+import 'MapClass.dart';
 import 'Student.dart';
 import 'super_keyword.dart';
 
@@ -63,6 +64,9 @@ void main() {
     listObject1.listMethod1();
 
   //Problem 10
+
+  var mapObject1 =ClassForMap();
+  mapObject1.mapMethod();
 
 
 
